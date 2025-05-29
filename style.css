@@ -1,0 +1,312 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 1%;
+}
+
+/* css for navbar */
+.con{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background-color: rgb(197, 14, 51);
+    position:sticky;
+    top:0;
+    z-index: 10000;
+}
+.logo{
+    /* border: 1px solid black; */
+    width: 7%;
+}
+.img-res{
+    width: 100%;
+}
+.nav-left{
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid black; */
+}
+.nav-left a{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    margin: 0% 3%;
+    color: black;
+    font-size:x-large;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.nav-left a:hover{
+    color: yellow;
+}
+/* ----------------------------------------------------------- */
+/* food search */
+.food-search{
+    
+    background-image:url(images/los.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9% ;
+}
+.text-center{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font: bold;
+    font-size: 2.5vmax;
+}
+.food-search input[type="search"]{
+    margin-top: 60px;
+    width: 50%;
+    padding: 1.5%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.food-searcho{  
+    background-color: rgb(13, 107, 107);
+     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9% ;
+}
+.text-white{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    padding: 1.5%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    transition: 0.7s;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+/* categories */
+.categoris{
+    padding: 3%  0%;
+}
+.products-container{
+    display: flex;
+    /* border: 1px solid black; */
+    /* background-color: aquamarine; */
+    justify-content: center;
+    flex-wrap: wrap;
+    height:100% ;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 4%;
+
+}
+.product{
+    /* border: 2px solid crimson; */
+    /* height: 90%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    /* margin: 1vmax; */
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+/* .product>a>img{
+    width: 20vmax;
+   
+} */
+.product:hover{
+    transform: translateY(-10px);
+}
+.float-con{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    margin-top: 3%;
+    color:white;
+}
+/* --------------------------------------- */
+.head{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font: bold;
+    font-size: xx-large;
+}
+.menue{
+    background-color: rgb(247, 232, 213);
+}
+
+.food-menue{
+ border: 1.5px solid rgb(71, 70, 70);
+ width: 45%;
+ margin: 1%;
+ float: left;
+ padding: 1%;
+ background-color: white;
+ border-radius: 1rem;
+}
+
+.clear-fix{
+    clear: both;
+    float: none;
+}
+.food-menue-img{
+   width: 20%; 
+   float: left;
+}
+.food-menue-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 0.9rem;
+}
+/* ----------------------------------------- */
+
+.social{
+    background-color: rgb(30, 34, 36);
+    padding: 2% 0;
+}
+.footer{ 
+    padding: 2vmax;
+    /* height: 10vmax; */
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightFooter{
+    width: 20%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  
+}
+.rightFooter>h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.4vmax;
+    text-decoration: underline;
+}
+.rightFooter>a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3vmax;
+    color: white;
+    margin: 0.5vmax;
+    transition: 0.8s;
+}
+.rightFooter a:hover{
+    color: yellow;
+}
+
+.success{
+    padding: 2%;
+    color: green;
+}
+.fail{
+    padding: 2%;
+    color: red;
+}
+
+/* ---------------------------- */
+.bo{
+    background-color:  #fccc00;
+}
+.cont{
+    background: #fccc00;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.welcome{
+    display: flex;
+  margin:  0 0;
+  position: relative;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.welcome img{
+    height: 66%;
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+#yo{
+    max-width: 100%;
+  display: block;
+  border-style: none;
+  box-sizing: border-box;
+}
+.welcome_cont{
+    padding: 0 0 1em;
+  position: relative;
+  width: 38em;
+  box-sizing: border-box;
+}
+#title
+{
+    font-size: 2.4em;
+    color: #9f1000;
+  font-size: 2.8em;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 2% 0;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+#title span{
+  display: inline-block;
+  padding: 0 .5em;
+  position: relative;
+  box-sizing: border-box;
+}
+.welcome__quote {
+    background: #fff;
+    color: #002a86;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 1.2rem 0;
+    padding: 1rem 1.4rem 2.6rem 2rem;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .welcome__name {
+    position: absolute;
+    bottom: .6rem;
+    right: 2rem;
+    font-size: .85em;
+    color: #9f1000;
+    box-sizing: border-box;
+    font-weight: 600;
+  }

@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    background-color:  rgb(19, 160, 160);
+    font-family: 'proximaNova';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #666565;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.success{
+    padding: 2%;
+    color: green;
+}
+.fail{
+    padding: 2%;
+    color: red;
+}

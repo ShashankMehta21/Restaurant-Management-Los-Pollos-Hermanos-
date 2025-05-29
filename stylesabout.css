@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Global styles */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    color: rgb(156, 5, 35);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* header h1 {
+    margin: 0;
+    font-size: 10rem;
+  } */
+  #videos {
+    text-align: center;
+  }
+#story,#philosophy,#team,#commitment,#experience{
+    padding: 40px 20px;
+    
+}
+
+  
+  h1 {
+    color: #e84c3d;
+    text-decoration: underline;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;    
+    background-color: beige;
+  } 
+  .pg{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+  }
+  
+  /* Footer styles */
+  /* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  } */
+
+  
+  /* Responsive styles  */
+     /* @media screen and (min-width: 768px) {
+    section {
+      padding: 60px;
+    }
+  } */ 
+  
