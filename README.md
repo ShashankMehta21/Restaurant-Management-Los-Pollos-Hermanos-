@@ -27,4 +27,4 @@ This is a dynamic Restaurant Management Web Application developed using **PHP**,
 - Responsive design for better usability
 
 ## Screenshot
-![Alt Text](Screenshot/1.png)
+![Alt Text](Screenshot/(1).png)
