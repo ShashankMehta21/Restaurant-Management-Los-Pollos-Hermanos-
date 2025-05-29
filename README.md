@@ -26,4 +26,5 @@ This is a dynamic Restaurant Management Web Application developed using **PHP**,
 - Confirmation message on successful order
 - Responsive design for better usability
 
-## 📁 Project Structure
+## Screenshot
+![Alt Text](Screenshot/1.png)
